@@ -1,12 +1,12 @@
-#friends pair problem
+# friends pair problem
 Given n friends, each one can remain single or can be paired up with some other friend.
 Each friend can be paired only once. Find out the total number of ways in which friends 
 can remain single or can be paired up.
 
-#EXAMPLE:
+# EXAMPLE:
 Input  : n = 3
 Output : 4
-#Explanation:
+# Explanation:
 {1}, {2}, {3} : all single
 {1}, {2,3} : 2 and 3 paired but 1 is single.
 {1,2}, {3} : 1 and 2 are paired but 3 is single.
