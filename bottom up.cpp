@@ -16,7 +16,7 @@ bool check(vector<int> S, int n, int sum)
 			if(S[i-1] > j)
 			table[i][j] = table[i-1][j];
 			else
-			table[i][j] = table[i - 1][j] || table[i][j - S[i-1]];
+			table[i][j] = table[i - 1][j] || table[i - 1][j - S[i-1]];
 		}
 	}
 	return table[n][sum];
